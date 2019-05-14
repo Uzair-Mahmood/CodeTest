@@ -1,0 +1,32 @@
+﻿Programming Code Test
+
+In this code test we will ask you to create a rudimental economy system for a city building application. For this we have provided you with a Unity project and two scripts for scriptable objects:
+•	ResourceObject.cs – This holds data relevant to a specific type of resource,
+•	And ResourceProcess.cs – This holds data on “ingredients” needed to create an output resource. 
+You will also notice you have been provided with 5 instances of ResourceObjects: Wheat, Milk, Flour, Bread and Cake. Using these, we ask you to try your hand at these tasks:
+Required:
+•	Create ResourceProcesses to create each resource with the relevant ingredients:
+o	Nothing for one Wheat,
+o	Nothing for one Milk
+o	Use 5 Wheat to make one Flour,
+o	Use 2 Flour to make one Bread,
+o	Use 3 Flour and 2 Milk to make one Cake.
+•	Implement a system that would create each resource over a set amount of time.
+•	Create production buildings (4 game-objects) that will produce these resources: 
+o	Wheat Farm for the Wheat,
+o	Dairy Farm for the Milk,
+o	Mill for the Flour,
+o	And a Bakery for both Bread and Cake
+•	Implement a Stockpile system to be used by each production building.
+Please also take note of how much time overall this application took to implement. 
+Optional:
+•	Create new resources, processes and production buildings for a new series of resources, the names for these we leave to your discretion.
+•	Improve the code structure of the “ingredients” in a process.
+•	Create functionality for toggling a Bakeries production between Bread and Cake.
+•	Add an additional “Cheese” resource for the Dairy Farm to produce (and allow for toggling between Milk and Cheese similar to the Bakery if you implemented a system for that). 
+o	Create a new process for the production of Cheese from the Dairy Farm and another process for the production of sandwiches in a Bakery using Bread and Cheese.
+•	Create a “Cart” object that could carry resources between buildings.
+o	Apply simple pathfinding to these carts so they may avoid travelling through building objects etc.
+o	Apply pathfinding to the carts that will allow them to avoid other carts.
+We appreciate your participation and look forward to seeing the resulting application and how you approached the tasks presented.
+Please return zipped Unity project via WeTransfer or similar. 

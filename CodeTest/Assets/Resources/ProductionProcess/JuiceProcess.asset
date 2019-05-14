@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026157581cd166541b3fe9075178e684, type: 3}
+  m_Name: JuiceProcess
+  m_EditorClassIdentifier: 
+  product: {fileID: 11400000, guid: 748974c1057364b45b56af67180bcd68, type: 2}
+  ingredients:
+  - {fileID: 11400000, guid: 557017f1eae0a47b0a2bc280c9a0a49f, type: 2}
+  - {fileID: 11400000, guid: 5eea2d88872cf4b0dae73e4e5fb9d11c, type: 2}
+  ingredientAmounts: 0200000002000000
